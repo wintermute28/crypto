@@ -1,0 +1,11 @@
+.main {
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    background: rgb(2,0,36);
+    background: linear-gradient(126deg, rgba(2,0,36,1) 0%, rgba(18,33,117,1) 31%, rgb(203, 103, 203) 100%);
+    min-height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
