@@ -1,12 +1,13 @@
 .filter-block {
     display: flex;
     padding: 10px;
-    width: 80%;
+    width: 50vw;
     background-color: rgb(203, 103, 203);
     border-radius: 12px;
     gap: 12px;
     justify-content: center;
     align-items: baseline;
+    font-weight: bold;
 }
 
 .input {
@@ -14,11 +15,24 @@
     border-radius: 12px;
     background-color: white;
     border: none;
+    font-weight: bold;
 }
+
+@media (max-width: 770px) {
+    .filter-block {
+        width: 80vw;
+    }
+    .input {
+        width: 140px;
+    }
+}
+
+
+
 
 @media (max-width: 415px) {
     .filter-block {
-        width: 95%;
+        width: 95vw;
     }
     .input {
         width: 140px;
