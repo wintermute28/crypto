@@ -14,7 +14,7 @@ const FilterBlock = ({ setCoins }) => {
       <input
         type="text"
         className="input"
-        placeholder="bitcoin"
+        placeholder="Bitcoin"
         value={value}
         onChange={(e) => setValue(e.target.value)}
       />
